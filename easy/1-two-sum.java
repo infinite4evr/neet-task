@@ -4,6 +4,7 @@
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Stream;
 
 class Solution {
   public int[] twoSum(int[] nums, int target) {
@@ -25,6 +26,22 @@ class Solution {
     }
 
     return numbers;
+
+  }
+}
+
+class Solution1 {
+  public static void main(String[] args) {
+
+    Map<Integer, Integer> complement = new HashMap<>();
+
+    int[] arr = { 1, 2, 3, 4, 5, 6 };
+
+    Stream.of(1, 2, 3).forEach(x -> {
+      System.out.println(x);
+    });
+
+    // return arr;
 
   }
 }
