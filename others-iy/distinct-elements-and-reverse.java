@@ -8,6 +8,9 @@ class Solution {
 
     list.stream().distinct().sorted((x, y) -> x > y ? -1 : 1).forEach(System.out::println);
 
+    Arrays.stream(null)
+    Arrays.asList(null)
+
   }
 
 }

@@ -21,3 +21,16 @@ class Solution {
 
   }
 }
+
+// // Online Java Compiler
+// // Use this editor to write, compile and run your Java code online
+// import java.util.*;
+
+// class Main {
+// public static void main(String[] args) {
+// Integer[] num = { 1, 2, 3, 4, 15 };
+// Arrays.asList(num).stream().map(String::valueOf).filter((String x) ->
+// x.charAt(0) == '1')
+// .forEach(System.out::println);
+// }
+// }
